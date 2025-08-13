@@ -1,4 +1,4 @@
-import { test } from "../-fixtures/fixtures";
+import { test } from "../fixtures/fixtures";
 import { priceFormatStr } from "../../src/common/helpers/getPriceForQuantity";
 import { COFFEE_PRICE } from "../../src/constants";
 

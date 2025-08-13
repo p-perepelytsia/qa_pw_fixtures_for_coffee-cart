@@ -8,6 +8,11 @@ export function priceFormatStr(unitPrice) {
 
 export function totalPriceFormatStr(unitPrice, unitsNumber = 1,) {
   const total = unitPrice * unitsNumber;
-  return `Total: $${total.toFixed(2)}`;
+
+  if (unitPrice > 1) {
+    return `$${total.toFixed(2)}`;
+  } else {
+    return `Total: $${total.toFixed(2)}`;
+  }
 }
 

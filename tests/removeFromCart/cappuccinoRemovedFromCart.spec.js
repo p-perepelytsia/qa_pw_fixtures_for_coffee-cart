@@ -1,4 +1,4 @@
-import { test } from "../-fixtures/fixtures";
+import { test } from "../fixtures/fixtures";
 
 test('Check Cappuccino removed from Cart after clicking remove button', async ({
   menuPage,

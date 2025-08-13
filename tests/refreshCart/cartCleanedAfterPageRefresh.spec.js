@@ -1,4 +1,4 @@
-import { test } from "../-fixtures/fixtures";
+import { test } from "../fixtures/fixtures";
 
 test('Assert cart cleaned after page refresh', async ({ menuPage, cartPage }) => {
   await menuPage.open();
